@@ -1,7 +1,7 @@
 package de.schlumpf
 
-//public class Tester implements Serializable {
-class Tester {  
+public class Tester implements Serializable {
+
 public String name = "test"
 
    Tester(String pName) {
