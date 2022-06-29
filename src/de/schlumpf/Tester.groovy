@@ -3,7 +3,7 @@ package de.schlumpf
 public class Tester implements Serializable {
   public String name = "test"
 
-  Tester(String pName) {
+  class Tester(String pName) {
     this.name = pName
   }
 
