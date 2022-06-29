@@ -1,15 +1,14 @@
 package de.schlumpf
 
-public class Tester implements Serializable {
-  public String name = "test"
+//public class Tester implements Serializable {
+class Tester {  
+public String name = "test"
 
- // class Tester(String pName) {
-//    this.name = pName
-//  }
-  
-  class Tester(String name) {
-    this.name = name
+   Tester(String pName) {
+    this.name = pName
   }
+  
+
 
   def sayHi() {
     echo "Hello, ${this.name}."
